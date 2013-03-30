@@ -14,7 +14,7 @@ class nsswitch (
   $rpc        = undef,
   $services   = undef,
   $shadow     = undef,
-  $sudoers    = undef,
+  $sudoers    = undef
 ) inherits nsswitch::params {
 
 # We need to figure out if the use provided input or we use defaults.
